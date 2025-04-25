@@ -2,7 +2,7 @@
 
 This repository contains a script in JavaScript/Node.js to delete empty Miro teams using Miro's REST API.
 
-## DISCLAIMER
+## Disclaimer
 The content of this project is subject to the Miro Developer Terms of Use: https://miro.com/legal/developer-terms-of-use/
 This script is provided as an example to illustrate how to identify Miro Teams with no Boards within and to remove these empty Teams.
 The usage of this script is at the sole discretion and responsibility of the customer and is to be tested thoroughly before running it on Production environments.
