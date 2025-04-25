@@ -7,7 +7,7 @@ The usage of this script is at the sole discretion and responsibility of the cus
 Script author: Luis Colman (luis.s@miro.com) | GitHub Profile: https://github.com/LuisSantosColman
 */
 
-const IS_TEST = false; // Change to false to perform team deletions
+const IS_TEST = true; // Change to false to perform team deletions
 const TOKEN = 'YOUR_MIRO_REST_API_TOKEN'; // Replace with your Miro REAT API token
 const MIRO_ORGANIZATION_ID = 'YOUR_MIRO_ORGANIZATION_ID'; // Replace with your Miro Company ID
 
