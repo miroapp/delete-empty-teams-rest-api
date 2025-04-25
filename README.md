@@ -78,7 +78,7 @@ __Note__: If the person running the script is not a __Company Admin__ with the _
 
 6.1. Within the file `node deleteEmptyTeams.js` replace the below variables at the top of the script:
 
-  - `IS_TEST`: set to `true` to run the script in test mode (no deletions will occur only reports will be generated). Set to `false` to perform the Miro Team deletion - code line `10`
+  - `IS_TEST`: set to `true` to run the script in test mode (no deletions will occur only reports will be generated). Set to `false` to perform the Miro Team deletions - code line `10`
   - `TOKEN`: replace value with your REST API token from step 5.6  - code line `11`
   - `MIRO_ORGANIZATION_ID`: replace value with your Miro Organization ID from step 5.7 - code line `12`
 
