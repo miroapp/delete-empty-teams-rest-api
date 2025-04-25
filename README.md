@@ -74,10 +74,17 @@ __Note__: If the person running the script is not a __Company Admin__ with the _
 
 ## Step 6. Run script `deleteEmptyTeams.js` using the command line (CLI)
 
-6.1. In your command line interface navigate to the directory where you have placed the script files (see step 2.2) 
+6.1. With the file `node deleteEmptyTeams.js` replace the below variables at the top of the script:
 
-6.2. In your command line interface run `node deleteEmptyTeams.js`. 
-This command will trigger the script.
+  - `IS_TEST`: set to `true` to run the script in test mode (no deletions will occur only reports will be generated) - code line `10`
+  - `TOKEN`: replace value with your REST API token from step 5.6  - code line `11`
+  - `MIRO_ORGANIZATION_ID`: replace value with your Miro Organization ID from step 5.7 - code line `12`
+
+6.2. Save your changes.
+
+6.3. In your command line interface navigate to the directory where you have placed the script files (see step 2.2) 
+
+6.4. In your command line interface run `node deleteEmptyTeams.js`. This command will trigger the script.
 
 ## Step 7. Review the folder `miro_teams_deletion_output_files`
 
