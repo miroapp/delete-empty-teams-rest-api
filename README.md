@@ -68,7 +68,7 @@ __Note__: If the person running the script is not a __Company Admin__ with the _
 
 <img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/get_access_token_screenshot.png" alt="Install and and get token screenshot" width="502" />
 
-5.7. Find your __Miro Company ID__ as you will need it when running the scripts. You will find your __Miro Company ID__ in the URL of the page where you received the REST API token
+5.7. Find your __Miro Organization ID__ as you will need it when running the scripts. You will find your __Miro Organization ID__ in the URL of the page where you received the REST API token
 
 <img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/get_miro_org_id_screenshot.png" alt="Install and and get token screenshot" width="903" />
 
