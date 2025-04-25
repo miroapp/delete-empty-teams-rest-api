@@ -60,7 +60,7 @@ __Note__: If the person running the script is not a __Company Admin__ with the _
 
 <img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/install_and_get_token_screenshot1.png" alt="Install and and get token screenshot" width="700" />
 
-5.5. Select any Production team within your Enteprise account, the token will apply for the entire account based on the scopes set on step 5.3. and click on __Add__
+5.5. Select any Production team within your Enteprise account, the token will apply for the entire account based on the scopes set on step 5.3 and click on __Add__
 
 <img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/select_team_screenshot.png" alt="Install and and get token screenshot" width="502" />
 
