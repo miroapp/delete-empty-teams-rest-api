@@ -8,7 +8,7 @@ Script author: Luis Colman (luis.s@miro.com) | GitHub Profile: https://github.co
 */
 
 const IS_TEST = true; // Change to false to perform team deletions
-const TOKEN = 'YOUR_MIRO_REST_API_TOKEN'; // Replace with your Miro REAT API token
+const TOKEN = 'YOUR_MIRO_REST_API_TOKEN'; // Replace with your Miro REST API token
 const MIRO_ORGANIZATION_ID = 'YOUR_MIRO_ORGANIZATION_ID'; // Replace with your Miro Company ID
 
 
