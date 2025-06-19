@@ -200,8 +200,6 @@ async function deleteTeams(numberOfRequestsForDelete) {
         getRemainingTeams[totalItems[i]] = { team_name: teams[totalItems[i]].team_name, team_id: teams[totalItems[i]].team_id }
     }
 
-    debugger;
-
     getProcessedTeams = {};
     let processedUrls = [];
     let batchSize;
@@ -276,7 +274,6 @@ async function deleteTeams(numberOfRequestsForDelete) {
                     let { status, value, reason } = batchResponses[i];
                     if (status === 'fulfilled') {
                         let teamId = value.url.replaceAll(`https://api.miro.com/v2/orgs/${MIRO_ORGANIZATION_ID}/teams/`,'');
-                        debugger;
                         if (value.ok) {
                             errorRetryCount = 0;
                             if (processedUrls.indexOf(value.url) === -1) {
@@ -565,7 +562,6 @@ async function getTeams(orgId, cursor) {
                 if (!IS_TEST) {
                     if (Object.keys(teamsToRemove).length > 0) {
                         console.log('Preparing to delete Teams without Boards within...');
-                        debugger;
                         await deleteTeams(numberOfRequestsForDelete);
                         if (Object.keys(getIndividualTeamsErrors).length === 0) {
                             console.log('Deleting Teams without Boards COMPLETE...');
