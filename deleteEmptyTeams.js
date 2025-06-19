@@ -31,7 +31,7 @@ let teamsToRemove = {};
 
 /* Functions - BEGIN */
 
-// Function to get the value of a query parameter of a string URL
+/* Function to get the value of a query parameter of a string URL */
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -43,6 +43,7 @@ function getParameterByName(name, url) {
     return results[2];
 }
 
+/* Functions to hold script execution (to allow replenishing credits when hitting the SCIM API rate limits) */
 const delay = ms => new Promise(res => setTimeout(res, ms));
 const holdScriptExecution = async (ms) => {
     console.log('**** Rate limit hit - Delaying execution for ' + (ms / 1000) + ' seconds to replenish rate limit credits - Current time: ' + new Date() + ' ***');
@@ -101,6 +102,7 @@ function jsonToCsv(jsonData) {
     }
 }
 
+/* Function to create reports */
 function addReportsForNodeJS() {
     let content;
     let directory = 'miro_teams_deletion_output_files';
