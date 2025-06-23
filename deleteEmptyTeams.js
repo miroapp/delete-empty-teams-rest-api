@@ -4,7 +4,7 @@ The content of this project is subject to the Miro Developer Terms of Use: https
 This script is provided only as an example to illustrate how to identify Miro Teams with no Boards within and to remove these empty Teams.
 The usage of this script is at the sole discretion and responsibility of the customer and is to be tested thoroughly before running it on Production environments.
 
-Script author: Luis Colman (luis.s@miro.com) | GitHub Profile: https://github.com/LuisSantosColman
+Script author: Luis Colman (luis.s@miro.com) | LinkedIn: https://www.linkedin.com/in/luiscolman/
 */
 
 const IS_TEST = true; // Change to false to perform team deletions
