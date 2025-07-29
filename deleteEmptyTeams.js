@@ -119,7 +119,7 @@ function addReportsForNodeJS() {
     fs.writeFileSync(filePath, content);
 
     content = JSON.stringify(teamsToRemove, null, '2');
-    filePath = 'miro_teams_deletion_output_files/Miro_Teams_to_Felete.json';
+    filePath = 'miro_teams_deletion_output_files/Miro_Teams_to_Delete.json';
     fs.writeFileSync(filePath, content);
 
     content = jsonToCsv(teamsToRemove);
