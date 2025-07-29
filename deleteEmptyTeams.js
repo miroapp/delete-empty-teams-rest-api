@@ -340,7 +340,7 @@ async function deleteTeams(numberOfRequestsForDelete) {
                         let failedUrl = promisesWithUrls[index].url;
                         let teamId = failedUrl.replaceAll(`https://api.miro.com/v2/orgs/${MIRO_ORGANIZATION_ID}/teams/`,'');
                         if (!getIndividualTeamsErrors[failedUrl]) {
-                            [failedUrl] = { team: teamId, url: failedUrl, error: status, errorMessage: value.statusText };
+                            getIndividualTeamsErrors[failedUrl] = { team: teamId, url: failedUrl, error: status, errorMessage: value.statusText };
                         }
                         console.error(`Custom Message - API URL --> ${failedUrl}:`, reason);
                     }
