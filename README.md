@@ -76,7 +76,7 @@ __Note__: If the person running the script is not a __Company Admin__ with the _
 
 ## Step 6. Run script `deleteEmptyTeams.js` using the command line (CLI)
 
-6.1. Within the file `node deleteEmptyTeams.js` replace the values of the below variables at the top of the script:
+6.1. Within the file `deleteEmptyTeams.js` replace the values of the below variables at the top of the script:
 
   - `IS_TEST`: set to `true` to run the script in test mode (no deletions will occur only reports will be generated). Set to `false` to perform the Miro Team deletions - code line `10`
   - `TOKEN`: replace value with your REST API token from step 5.6  - code line `11`
